@@ -43,13 +43,12 @@ end
 
 def list
   puts "Here is everything you need to do:"
-  tasks = Task.all
-  tasks.each { |task| puts task.name }
+  Task.not_done.each { |task| puts task.name }
 end
 
 def mark_done
   puts "Which of these tasks would you like to mark as done?"
-  Task.all.each {|task| puts task.name }
+  Task.not_done.each { |task| puts task.name }
 
   done_task_name = gets.chomp
   done_tasks = Task.where({:name => done_task_name})
