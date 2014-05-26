@@ -1,8 +1,13 @@
-Active Record Queries and Associations
+To Do - Ruby, Postgres, Active Record, associations
+============================
 
-3/24/2014
-week6, day1: project 1
+March 24, 2014
 
-refactor the To-Do List app to use active record and other related gems
+Epicodus: Week6, Day1
+
+************************
+Lesson:
+
+Refactor the To-Do List app using active record and other related gems
 
 http://www.learnhowtoprogram.com/lessons/active-record-queries-and-associations
